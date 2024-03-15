@@ -69,6 +69,14 @@ if (!isset($_SESSION["usuario"])) {
     <h2>Siga-Nos</h2>
     <p>Siga-nos no Twitter ou no Tumblr para atualizações de status </p>
 
+    <div class="container4">
+    <div class="texto4">
+
+    <h2>Um sicriado por fãs, administrado por fãs, sem fins lucrativos e não comercial, para obras de fãs transformadoras, como fanfiction, fanart, vídeos de fãs e podfic</h2>
+    <p>Siga-nos no Twitter ou no Tumblr para atualizações de status </p>
+       
+    
+
     
 </main>
 

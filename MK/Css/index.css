@@ -189,3 +189,13 @@ top: 13px;
     margin-top: 410px;
     left:-680px;
   }
+
+  .texto4 {
+    width: 45vw;
+    text-align: justify;
+    padding-left: 310px;
+    font-family: ui-sans-serif;
+    position: relative;
+    margin-top: -600px;
+    left: 500px;
+  }
