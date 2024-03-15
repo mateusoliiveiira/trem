@@ -29,7 +29,8 @@
 
     
 <main>
-
+<p>Bem-vindo ao meu site! Clique no botão abaixo para alternar entre o modo claro e o modo noturno.</p>
+        <button id="toggleButton">Modo Noturno</button>
 </main>
 
 
@@ -40,3 +41,15 @@
 </footer>
 </body>
 </html>
+<script>
+document.getElementById("toggleButton").addEventListener("click", function() {
+    document.body.classList.toggle("dark-mode");
+    if (document.body.classList.contains("dark-mode")) {
+        document.getElementById("toggleButton").textContent = "Modo Claro";
+    } else {
+        document.getElementById("toggleButton").textContent = "Modo Noturno";
+    }
+});
+
+
+</script>
