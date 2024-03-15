@@ -1,0 +1,45 @@
+body{
+
+
+}
+header{
+    background-color: #A7A6E1;
+    width: 100%;
+    left: -0px;
+    height: 90px;
+    position: absolute;
+    top: -20px;
+}
+.barra{
+    background-color: #4E437B;
+    width: 100%;
+    left: -0px;
+    height: 60px;
+    position: absolute;
+    top: 70px;
+}
+main{
+    background-color: #A7A6E1;
+    width: 100%;
+    left: -0px;
+    height: 80%;
+    position: absolute;
+    top: 17%;
+}
+footer{
+    background-color: #4E437B;
+    width: 100%;
+    left: -0px;
+    height: 10%;
+    position: absolute;
+    top: 97%;
+}
+.logo{
+    position: absolute;
+    top: 15px;
+}
+h1{
+    position: absolute;
+left: 99px;
+top: 13px;
+}
