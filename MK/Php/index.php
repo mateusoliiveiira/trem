@@ -3,18 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../MK/Css/index.css">
+    <link rel="stylesheet" href="../Css/index.css">
     <title>Fanfiction</title>
 </head>
 <body>
 
 <header>
-  <div class="barra">
+    <!-----------------LOGO----------------->
 
-</div>
- 
-<header>
+<img class="logo" src="../img/logoo.jpeg" width="80px">
+<h1>Abc Fanfiction</h1>
+</header>
+
+
+<div class="barra"></div>
 
     
+<main>
+
+</main>
+
+
+
+<footer>
+
+
+</footer>
 </body>
 </html>
