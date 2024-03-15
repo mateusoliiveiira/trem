@@ -43,7 +43,19 @@ h1{
 left: 99px;
 top: 13px;
 }
-
+.dark-mode {
+    background-color: #333; /* Cor de fundo para o modo noturno */
+    color: #fff; /* Cor de texto para o modo noturno */
+}
+.icon {
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    display: none; /* Inicialmente, as imagens estarão ocultas */
+}
 .link a {
     position: relative;
     left: 90px;
@@ -111,7 +123,18 @@ top: 13px;
   #divBusca img{
     float:left;
   }
-
+.lua{
+    position: absolute;
+    width:40px;
+    left: 47%;
+    top: -35px;
+}
+.sol{
+    position: absolute;
+    width:30px;
+    left: 47%;
+    top: -30px;
+}
   .texto-motivação {
     width: 45vw;
     text-align: justify;
