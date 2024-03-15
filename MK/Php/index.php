@@ -8,6 +8,13 @@
 </head>
 <body>
 
+<header>
+  <div class="barra">
+
+</div>
+ 
+<header>
+
     
 </body>
 </html>
