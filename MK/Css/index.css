@@ -112,3 +112,9 @@ top: 13px;
     float:left;
   }
 
+  .texto-motivação {
+    width: 45vw;
+    text-align: justify;
+    padding-left: 80px;
+    font-family: ui-sans-serif;
+  }

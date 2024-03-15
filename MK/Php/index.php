@@ -35,10 +35,16 @@
 </nav>
 </div>
 
-    
+
 <main>
 <p>Bem-vindo ao meu site! Clique no botão abaixo para alternar entre o modo claro e o modo noturno.</p>
         <button id="toggleButton">Modo Noturno</button>
+
+        <div class="container">
+    <div class="texto-motivação">
+        <h2>Encontre seus favoritos</h2>
+        <li>As gincanas infantis representam uma ferramenta valiosa no processo de desenvolvimento das crianças </li>  mas também oportunidades  <li>s cognitivo e emocional dos pequenos, promovendo habilidades essenciais para a vida. </li>
+
 </main>
 
 
