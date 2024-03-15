@@ -66,8 +66,10 @@ if (!isset($_SESSION["usuario"])) {
 
         <div class="container3">
     <div class="texto3">
-    <h2>Encontre seus favoritos</h2>
-    <p>Bem-vindo ao meu site! Clique no botão abaixo para alternar entre o modo claro e o modo noturno.</p>
+    <h2>Siga-Nos</h2>
+    <p>Siga-nos no Twitter ou no Tumblr para atualizações de status </p>
+
+    
 </main>
 
 
