@@ -15,6 +15,18 @@
 
 <h1>Abc Fanfiction</h1>
 
+<a href="#" class="confirm-link" onclick="confirmLogout()">   
+<?php
+
+session_start();
+
+if (!isset($_SESSION["usuario"])) {
+    echo '<a class="conect" href="login.php">Conecte-se</a>';
+} else {
+    echo '<h1 class="conect">Olá, ' . $_SESSION["usuario"] . '</h1>';
+}
+?>
+
 </header>
 
 <!---------------------------------MENU---------------------------------->
@@ -93,4 +105,12 @@ if (document.body.classList.contains("dark-mode")) {
 
 
 
+</script>
+<script>
+function confirmLogout() {
+    var confirmLogout = confirm("Realmente que Sair dessa Pagina?");
+    if (confirmLogout) {
+        window.location.href = 'logout.php';
+    }
+}
 </script>
