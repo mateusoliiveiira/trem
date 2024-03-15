@@ -51,8 +51,99 @@ if (!isset($_SESSION["usuario"])) {
 <main>
 <img class="sol"src="../img/sol-logo.png" alt="Sol" id="sol" class="icon">
     <img class="lua"src="../img/lua-logo.png" alt="Lua" id="lua" class="icon">
-    <p>Bem-vindo ao meu site! Clique no botão abaixo para alternar entre o modo claro e o modo noturno.</p>
-    <button id="toggleButton">Modo Noturno</button>
+    <p class="text">Clique no botão abaixo 
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    e o modo claro<br> e o modo noturno.</p>
+    
+    <button class="butao" id="toggleButton">Modo Noturno</button>
 
         <div class="container">
     <div class="texto-motivação">
@@ -69,6 +160,9 @@ if (!isset($_SESSION["usuario"])) {
 </footer>
 </body>
 </html>
+
+
+<!------------------------------------------------------------SCRIPT---------------------------------------------------------------->
 <script>
 document.getElementById("toggleButton").addEventListener("click", function() {
     document.body.classList.toggle("dark-mode");

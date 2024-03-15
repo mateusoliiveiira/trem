@@ -170,3 +170,39 @@ top: 13px;
     transform: scaleX(1); /* Aumenta a largura da linha ao passar o mouse */
     transform-origin: left;
 }
+
+.butao {
+    position: absolute;
+    left: 90%;
+    padding: 10px 20px;
+    background-color: #4E437B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    top: 80px;
+  }
+  
+  .butao:hover {
+    background-color: #c978c1;
+  }
+  
+  #toggleButton {
+    /* Estilos específicos para o botão com o identificador toggleButton */
+  }
+  
+  /* Estilos para o modo noturno */
+  .modo-noturno .butao {
+    background-color: #343a40;
+  }
+  
+  .modo-noturno .butao:hover {
+    background-color: #1d2124;
+  }
+  .text{
+    position: absolute;
+    left: 90%;
+    top: -10px;
+    left: 80%;
+  }
