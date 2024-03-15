@@ -20,10 +20,18 @@
 <!---------------------------------MENU---------------------------------->
 <div class="barra">
 
+
 <nav class="link">
         <a href="../php/tags.php">TAGS</a>
+        <a href="../php/tags.php">NAVEGAR</a>
+        <a href="../php/tags.php">MINHAS HISTORIAS</a>
+        <a href="../php/tags.php">SOBRE</a>
+        <div id="divBusca">
 
-     
+  <input type="text" id="txtBusca" placeholder="Pesquisar..."/>
+  <button id="btnBusca">Pesquisar</button>
+</div>
+
 </nav>
 </div>
 
