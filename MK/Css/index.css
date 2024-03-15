@@ -135,7 +135,7 @@ top: 13px;
     left: 47%;
     top: -30px;
 }
-  .texto-motivação {
+  .texto {
     width: 45vw;
     text-align: justify;
     padding-left: 80px;
@@ -205,4 +205,32 @@ top: 13px;
     left: 90%;
     top: -10px;
     left: 80%;
+  }
+  .texto2 {
+    width: 45vw;
+    text-align: justify;
+    padding-left: 310px;
+    font-family: ui-sans-serif;
+    position: relative;
+    margin-top: -110px;
+  }
+
+  .texto3 {
+    width: 45vw;
+    text-align: justify;
+    padding-left: 310px;
+    font-family: ui-sans-serif;
+    position: relative;
+    margin-top: 410px;
+    left:-680px;
+  }
+
+  .texto4 {
+    width: 45vw;
+    text-align: justify;
+    padding-left: 310px;
+    font-family: ui-sans-serif;
+    position: relative;
+    margin-top: -600px;
+    left: 500px;
   }

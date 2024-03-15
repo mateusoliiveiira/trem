@@ -146,10 +146,29 @@ if (!isset($_SESSION["usuario"])) {
     <button class="butao" id="toggleButton">Modo Noturno</button>
 
         <div class="container">
-    <div class="texto-motivação">
+    <div class="texto">
         <h2>Encontre seus favoritos</h2>
-        <li>As gincanas infantis representam uma ferramenta valiosa no processo de desenvolvimento das crianças </li>  mas também oportunidades  <li>s cognitivo e emocional dos pequenos, promovendo habilidades essenciais para a vida. </li>
+        <li>TODOS OS FÃS </li>  <li> ANIME E MANGÁ</li>  <li> LIVROS E LITERATURA</li>  <li> DESENHOS ANIMADOS<br> E HISTORIAS EM QUADRINHOS</li>  <li> CELEBRIDADES E PESSOAS REAIS</li>  
+      
+        <div class="container2">
+    <div class="texto2">
+       
+        <li>FILMES </li>  <li>MUSICA E BANDAS</li>  <li> OUTROS MIDIAS </li>  <li> TEATRO</li>  <li> PROGRAMA DE TELEVISÃO</li> <li> JOGOS DE VIDEOS </li>  <li> FANDOMS SEM CATEGORIA</li>
 
+        <div class="container3">
+    <div class="texto3">
+    <h2>Siga-Nos</h2>
+    <p>Siga-nos no Twitter ou no Tumblr para atualizações de status </p>
+
+    <div class="container4">
+    <div class="texto4">
+
+    <h2>Um sicriado por fãs, administrado por fãs, sem fins lucrativos e não comercial, para obras de fãs transformadoras, como fanfiction, fanart, vídeos de fãs e podfic</h2>
+    <p>Siga-nos no Twitter ou no Tumblr para atualizações de status </p>
+       
+    
+
+    
 </main>
 
 
