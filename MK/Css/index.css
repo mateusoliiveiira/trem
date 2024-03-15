@@ -135,9 +135,26 @@ top: 13px;
     left: 47%;
     top: -30px;
 }
-  .texto-motivação {
+  .texto {
     width: 45vw;
     text-align: justify;
     padding-left: 80px;
     font-family: ui-sans-serif;
+  }
+  .texto2 {
+    width: 45vw;
+    text-align: justify;
+    padding-left: 310px;
+    font-family: ui-sans-serif;
+    position: relative;
+    margin-top: -110px;
+  }
+
+  .texto3 {
+    width: 45vw;
+    text-align: justify;
+    padding-left: 310px;
+    font-family: ui-sans-serif;
+    position: relative;
+    margin-top: 210px;
   }
