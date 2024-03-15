@@ -43,3 +43,38 @@ h1{
 left: 99px;
 top: 13px;
 }
+
+.link a {
+    position: relative;
+    left: 90px;
+    margin-right: 50px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 15px;
+    text-decoration: none;
+    color: #000000;
+    top:23px;
+    overflow: hidden;
+}
+
+.link a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #A7A6E1;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+.link a:hover:after,
+.link a:focus:after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+

@@ -12,11 +12,20 @@
     <!-----------------LOGO----------------->
 
 <img class="logo" src="../img/logoo.jpeg" width="80px">
+
 <h1>Abc Fanfiction</h1>
+
 </header>
 
+<!---------------------------------MENU---------------------------------->
+<div class="barra">
 
-<div class="barra"></div>
+<nav class="link">
+        <a href="../php/tags.php">TAGS</a>
+
+     
+</nav>
+</div>
 
     
 <main>
