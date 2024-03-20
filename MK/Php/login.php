@@ -59,8 +59,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </table>
     </form>
 
-    <h2>Não tem conta? Se Cadatre Agora</h2>
-    <a href="cadastro.php">Cadastrar</a>
+    <h2>Não tem conta? <a href="cadastro.php"> Cadastre-Se</h2>
+    
     </div>
 
  
