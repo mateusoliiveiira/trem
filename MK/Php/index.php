@@ -83,8 +83,8 @@ if (!isset($_SESSION["usuario"])) {
   <li>Seja notificado quando suas obras, séries ou usuários favoritos forem atualizados</li>
   <li>Participe de desafios</li> 
   <li>Acompanhe as obras que você visitou e as que deseja conferir mais tarde</li> 
-  <li>Você pode participar recebendo um convite de nossa fila de convites automática. Todos os fãs e fanworks são bem-vindos!</li> 
-  <a href="pergunta.php">
+  Você pode participar recebendo um convite de nossa fila de convites automática. Todos os fãs e fanworks são bem-vindos! ,
+  <a href="pergunta.php"><br> <br>
   <button class="glow-on-hover">Seja Convidado!</button>
        
     
