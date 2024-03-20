@@ -140,6 +140,9 @@ top: 13px;
     text-align: justify;
     padding-left: 80px;
     font-family: ui-sans-serif;
+    font-size: 20px;
+    margin-top: 100px;
+   
   }
   .conect {
     position: absolute;
@@ -212,7 +215,9 @@ top: 13px;
     padding-left: 310px;
     font-family: ui-sans-serif;
     position: relative;
-    margin-top: -110px;
+    margin-top: -230px;
+    font-size: 20px;
+    
   }
 
   .texto3 {
@@ -220,19 +225,38 @@ top: 13px;
     text-align: justify;
     padding-left: 310px;
     font-family: ui-sans-serif;
-    position: relative;
-    margin-top: 410px;
-    left:-680px;
+    position: absolute;
+    margin-top: 200px;
+    left:-380px;
   }
 
   .texto4 {
     width: 45vw;
     text-align: justify;
     padding-left: 310px;
-    font-family: ui-sans-serif;
-    position: relative;
-    margin-top: -610px;
-    left: 500px;
-    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    margin-top: -600px;
+    left: 890px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
+  
   }
+.texto h2{
+  margin-left: 90px;
+  font-size: 30px;
+  margin-top: 20px;
+  text-decoration:underline;
+}
+.texto4 p{
+  font-size: 20px;
+  margin-left: 30px;
+
+}
+.texto3 p{
+  margin-left: 50px;
+  
+}
+.texto4 h3{
+ margin-top: -9px;
+}

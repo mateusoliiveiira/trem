@@ -57,23 +57,23 @@ if (!isset($_SESSION["usuario"])) {
 
         <div class="container">
     <div class="texto">
-        <h2>Encontre seus favoritos</h2>
-        <li>TODOS OS FÃS </li>  <li> ANIME E MANGÁ</li>  <li> LIVROS E LITERATURA</li>  <li> DESENHOS ANIMADOS<br> E HISTORIAS EM QUADRINHOS</li>  <li> CELEBRIDADES E PESSOAS REAIS</li>  
+        <h2>Encontre seus favoritos</h2 >
+       <b> <li>TODOS OS FÃS </li>  <li> ANIME E MANGÁ</li>  <li> LIVROS E<br> <li> LITERATURA</li>  <li> DESENHOS<br> <li> ANIMADOS E<br> <li> HISTORIAS EM <br> <li> QUADRINHOS</li>  <li> CELEBRIDADES E<br> <li> PESSOAS REAIS</li>  
       
         <div class="container2">
     <div class="texto2">
        
-        <li>FILMES </li>  <li>MUSICA E BANDAS</li>  <li> OUTROS MIDIAS </li>  <li> TEATRO</li>  <li> PROGRAMA DE TELEVISÃO</li> <li> JOGOS DE VIDEOS </li>  <li> FANDOMS SEM CATEGORIA</li>
-
+        <li>FILMES </li>  <li>MUSICA E BANDAS</li>  <li> OUTROS MIDIAS </li>  <li> TEATRO</li>  <li> PROGRAMA DE<br> <li> TELEVISÃO</li> <li> JOGOS DE VIDEOS </li>  <li> FANDOMS SEM<br> <li> CATEGORIA</li>
+</b>
         <div class="container3">
     <div class="texto3">
     <h2>Siga-Nos</h2>
-    <p>Siga-nos no Twitter ou no Tumblr para atualizações de status </p>
+    <p><b>Siga-nos no Twitter ou no Tumblr<br> para atualizações de status </p></b>
 
     <div class="container4">
     <div class="texto4">
 
-    <h2>Um sicriado por fãs, administrado por fãs,<br> sem fins lucrativos e não comercial, para<br> obras de fãs transformadoras, como <br>fanfiction, fanart, vídeos de fãs e podfic</h2>
+    <h3>Um sicriado por fãs, administrado por fãs,<br> sem fins lucrativos e não comercial, para<br> obras de fãs transformadoras, como <br>fanfiction, fanart, vídeos de fãs e podfic</h3>
     <p>mais de 63.990 fandoms | 6.816.000 usuários | 12.630.000 obras</p>
        
     
