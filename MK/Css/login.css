@@ -1,0 +1,51 @@
+.background-container {
+    background-image: url('../img/fundo-login.jpeg');
+    background-repeat: repeat;
+    width: 101%; /* Ou ajuste a largura conforme necessário */
+    height: 1005px; /* Ou ajuste a altura conforme necessário */
+    margin-top: -250px;
+   
+}
+.container {
+    background-color: rgba(117, 112, 173, 0.8); /* Azul transparente */
+    padding: 70px;
+    margin: 220px auto;
+    width: 630px;
+    border-radius: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 140px;
+    border-radius: 15px;
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Azul */
+    color: #fff;
+    cursor: pointer;
+}
+
+a {
+    display: block;
+    text-align: center;
+    color: #007bff; /* Azul */
+    text-decoration: none;
+}
