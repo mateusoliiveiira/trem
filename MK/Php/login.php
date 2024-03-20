@@ -39,12 +39,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="../css/login.css">
     <title>Document</title>
 </head>
+<div class="background-container">
+          <!-----------------LOGO----------------->
 
-<body style="background: url('../img/background-corredor.png') no-repeat center center fixed; background-size: cover;">
-    <!-----------------LOGO----------------->
 
-<img class="logo" src="../img/Gincanca-logo-complet.png" width="300px">
-    <h1>Login</h1>
+<div class="container">
+    <h1><b>Conecte-se</h1></b>
 <form method="post">
         <table>
             <tr>
@@ -61,6 +61,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <h2>Não tem conta? Se Cadatre Agora</h2>
     <a href="cadastro.php">Cadastrar</a>
+    </div>
+
+ 
 </body>
 
 </html>
