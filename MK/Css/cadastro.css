@@ -1,27 +1,25 @@
 .background-container {
     background-image: url('../img/fundo-login.jpeg');
     background-repeat: repeat;
-    width: 101%; /* Ou ajuste a largura conforme necessário */
-    height: 1170px; /* Ou ajuste a altura conforme necessário */
+    width: 101%;
+    height: 1170px;
     margin-top: -233px;
     margin-left: -11px;
-   
 }
+
 .container {
-    background-color: rgba(117, 112, 173, 0.8); /* Azul transparente */
+    background-color: rgba(117, 112, 173, 0.8);
     padding: 70px;
     margin: 220px auto;
     width: 630px;
     border-radius: 10px;
-    border-radius: 20px;
     color: white;
     position: absolute;
     top: 30px;
     left: 600px;
-   
 }
 
-h1, h2 {
+h1, h2, h3 {
     text-align: center;
 }
 
@@ -31,6 +29,7 @@ form {
 
 input[type="text"],
 input[type="password"],
+input[type="email"],
 input[type="submit"] {
     width: 100%;
     padding: 10px;
@@ -43,7 +42,7 @@ input[type="submit"] {
 }
 
 input[type="submit"] {
-    background-color: #007bff; /* Azul */
+    background-color: #007bff;
     color: #fff;
     cursor: pointer;
 }
@@ -51,6 +50,6 @@ input[type="submit"] {
 a {
     display: block;
     text-align: center;
-    color: #007bff; /* Azul */
+    color: #007bff;
     text-decoration: none;
 }

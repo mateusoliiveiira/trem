@@ -39,41 +39,40 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="../css/register.css">
-
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de login</title>
+    <link rel="stylesheet" href="../Css/cadastro.css">
+   
 </head>
-<body style="background: url('../img/background-corredor.png') no-repeat center center fixed; background-size: cover;">
+<body>
+<div class="background-container">
+    <img class="logo" src="../img/Gincanca-logo-complet.png" width="300px">
+    <div class="container">
+        <h1>Cadastrar</h1>
+        <h2><?php echo $mensagem; ?></h2>
 
+        <form method="post">
+            <table>
+                <tr>
+                    <td><input type="text" name="usuario" placeholder="Nome de Usuário" required></td>
+                </tr>
+                <tr>
+                    <td><input type="password" name="senha" placeholder="Senha" required></td>
+                </tr>
+                <tr>
+                    <td><input type="email" name="email" placeholder="Email" required></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Cadastrar"></td>
+                </tr>
+            </table>
+        </form>
 
-
-
-<img class="logo" src="../img/Gincanca-logo-complet.png" width="300px">
-<h1>Cadastrar</h1>
-    <h2><?php echo $mensagem; ?></h2>
-
-    <form method="post">
-        <table>
-            <tr>
-                <td><input type="text" name="usuario" placeholder="Nome de Usuário" required></td>
-            </tr>
-            <tr>
-                <td><input type="password" name="senha" placeholder="Senha" required></td>
-            </tr>
-            <tr>
-                <td><input type="email" name="email" placeholder="Email" required></td>
-            </tr>
-            <tr>
-                <td><input type="submit" value="Cadastrar"></td>
-            </tr>
-        </table>
-    </form>
-
-      <h3>Já Tem Login? </h3>
-      <a href="Login.php">Logar   </a>
-
-
+        <h3>Já Tem Login? </h3>
+        <a href="Login.php">Logar   </a>
+    </div>
+</div>
 </body>
-
 </html>
