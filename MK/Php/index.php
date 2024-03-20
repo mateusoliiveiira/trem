@@ -84,8 +84,7 @@ if (!isset($_SESSION["usuario"])) {
   <li>Participe de desafios</li> 
   <li>Acompanhe as obras que você visitou e as que deseja conferir mais tarde</li> 
   Você pode participar recebendo um convite de nossa fila de convites automática. Todos os fãs e fanworks são bem-vindos! ,
-  <a href="pergunta.php"><br> <br>
-  <button class="glow-on-hover">Seja Convidado!</button>
+ 
        
     
 
