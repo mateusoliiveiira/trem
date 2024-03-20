@@ -74,7 +74,7 @@ if (!isset($_SESSION["usuario"])) {
     <div class="texto4">
 
     <h2>Um sicriado por fãs, administrado por fãs, sem fins lucrativos e não comercial, para obras de fãs transformadoras, como fanfiction, fanart, vídeos de fãs e podfic</h2>
-    <p>Siga-nos no Twitter ou no Tumblr para atualizações de status </p>
+    <p>mais de 63.990 fandoms | 6.816.000 usuários | 12.630.000 obras </p>
        
     
 
@@ -128,3 +128,4 @@ function confirmLogout() {
     }
 }
 </script>
+
