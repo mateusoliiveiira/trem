@@ -75,6 +75,17 @@ if (!isset($_SESSION["usuario"])) {
 
     <h2>Um sicriado por fãs, administrado por fãs,<br> sem fins lucrativos e não comercial, para<br> obras de fãs transformadoras, como <br>fanfiction, fanart, vídeos de fãs e podfic</h2>
     <p>mais de 63.990 fandoms | 6.816.000 usuários | 12.630.000 obras</p>
+
+    <div class="quadrado">
+  <div class="texto">
+  <h3>Com uma conta Abc, você pode:</h3>
+  <li>Compartilhe suas próprias obras de fãs</li>
+  <li>Seja notificado quando suas obras, séries ou usuários favoritos forem atualizados</li>
+  <li>Participe de desafios</li> 
+  <li>Acompanhe as obras que você visitou e as que deseja conferir mais tarde</li> 
+  <li>Você pode participar recebendo um convite de nossa fila de convites automática. Todos os fãs e fanworks são bem-vindos!</li> 
+  <a href="pergunta.php">
+  <button class="glow-on-hover">Seja Convidado!</button>
        
     
 
