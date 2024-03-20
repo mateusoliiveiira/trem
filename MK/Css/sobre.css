@@ -1,0 +1,8 @@
+.background-container {
+    background-image: url('../img/fundo-login.jpeg');
+    background-repeat: repeat;
+    width: 101%; /* Ou ajuste a largura conforme necessário */
+    height: 1005px; /* Ou ajuste a altura conforme necessário */
+    margin-top: -250px;
+   
+}
