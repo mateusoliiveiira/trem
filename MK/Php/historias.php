@@ -63,7 +63,8 @@ $livros = $stmt->fetchAll();
 <div class="fundo"></div>
 
 <div class="barrita">
-    <h1 class="ab"> Abc Fanfiction   </h1> 
+
+    <h1 class="ab"><a href="index.php"> Abc Fanfiction   </h1 > </a>
     <h1 class="e"><b> >  Gerenciar Minhas Histórias</h1>
         <h1 class="his"><b>  Gerenciar Histórias | Histórias Excluídas        </h1>
         <h1 class="ai"> Você ainda não postou nenhuma História?<a href="cadastrarmyhistoria.php"> Quer postar uma História?     </a>          </h1>
