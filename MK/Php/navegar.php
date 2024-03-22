@@ -191,7 +191,7 @@ table {
                           <td class="livro">
                         <b>  <p><?= $livro['titulo'] ?></p></b>
                               <img style="max-width: 160px;" src="<?= $livro['imagem'] ?>">
-                              <a href="#" onclick="emprestarLivro(<?= $livro['id'] ?>)" style="display: inline-block; padding: 10px 20px; font-size: 16px; text-align: center; text-decoration: none; background-color: #4CAF50; color: white; border: 1px solid #4CAF50; border-radius: 5px; cursor: pointer;" onmouseover="this.style.backgroundColor='#45a049'" onmouseout="this.style.backgroundColor='#4CAF50'">Emprestar</a>
+                              <a href="#" onclick="emprestarLivro(<?= $livro['id'] ?>)" style="display: inline-block; padding: 10px 20px; font-size: 16px; text-align: center; text-decoration: none; background-color: #5F9EA0; color: white; border: 1px solid #4CAF50; border-radius: 5px; cursor: pointer;" onmouseover="this.style.backgroundColor='#45a049'" onmouseout="this.style.backgroundColor='#5F9EA0'">Emprestar</a>
   
   
   
@@ -229,4 +229,10 @@ function confirmLogout() {
     }
 }
 </script>
-
+<!------SCRIPT de emprestimo de livro--------->
+<script>
+        function emprestarLivro(livroId) {
+            // Adapte a URL de redirecionamento conforme necessário
+            window.location.href = 'pagina_emprestimo.php?id=' + livroId;
+        }
+    </script>
