@@ -46,9 +46,10 @@
     <section class="section">
             <div class="topicsstart">
                 <h3>Encontre seus favoritos</h3>
-                <hr>
+                <hr>      </hr>
             </div>
-        
+        <br>
+        <br>
             <div class="topics">
                 <a href="../php/romance.php">•  Romance</a>
                 <a href="../php/drama.php">•  Drama</a>
