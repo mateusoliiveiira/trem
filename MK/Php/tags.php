@@ -55,12 +55,12 @@
                 <a href="../php/drama.php">•  Drama</a>
                 <a href="../php/naruto.php"">•  Naruto</a>
                 <a href="../php/comedia.php">•  Comedia</a>
-                <a href="topic5.html">•  Amor</a>
+                <a href="../php/amor.php">•  Amor</a>
             </div>
             
             <div class="topics2">
-                <a href="topic8.html">•  Fantasia</a>
-                <a href="topic9.html">•  Tragedia</a>
+                <a href="../php/fantasia.php">•  Fantasia</a>
+                <a href="../php/tragedia.php">•  Tragedia</a>
                 <a href="topic10.html">•  Familia</a>
                 <a href="topic11.html">•  Poesia</a>
                 <a href="topic12.html">•  Ação</a>
