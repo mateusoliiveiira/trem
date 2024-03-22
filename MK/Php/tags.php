@@ -63,9 +63,9 @@
                 <a href="../php/tragedia.php">•  Tragedia</a>
                 <a href="../php/familia.php">•  Familia</a>
                 <a href="../php/poesia.php">•  Poesia</a>
-                <a href="topic12.html">•  Ação</a>
-                <a href="topic13.html">•  Amizade</a>
-                <a href="topic13.html">•  Magia</a> 
+                <a href="../php/acao.php">•  Ação</a>
+                <a href="../php/amizade.php">•  Amizade</a>
+                <a href="../php/magia.php">•  Magia</a> 
             </div>  
                 </section>
         
