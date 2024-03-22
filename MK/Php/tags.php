@@ -53,7 +53,7 @@
                 <a href="../php/romance.php">•  Romance</a>
                 <a href="../php/drama.php">•  Drama</a>
                 <a href="../php/naruto.php"">•  Naruto</a>
-                <a href="topic4.html">•  Comedia</a>
+                <a href="../php/comedia.php">•  Comedia</a>
                 <a href="topic5.html">•  Amor</a>
             </div>
             
