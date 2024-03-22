@@ -73,7 +73,7 @@ if (!isset($_SESSION["usuario"])) {
     <div class="container4">
     <div class="texto4">
 
-    <h3>Um sicriado por fãs, administrado por fãs,<br> sem fins lucrativos e não comercial, para<br> obras de fãs transformadoras, como <br>fanfiction, fanart, vídeos de fãs e podfic</h3>
+    <h3>Um site criado por fãs, administrado por fãs,<br> sem fins lucrativos e não comercial, para<br> obras de fãs transformadoras, como <br>fanfiction, fanart, vídeos de fãs e podfic</h3>
     <p>mais de 63.990 fandoms | 6.816.000 usuários | 12.630.000 obras</p>
 
     <div class="quadrado">
