@@ -1,0 +1,160 @@
+.link a {
+    position: relative;
+    left: 90px;
+    margin-right: 50px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 15px;
+    text-decoration: none;
+    color: #000000;
+    top:23px;
+    overflow: hidden;
+}
+
+.link a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #A7A6E1;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+.link a:hover:after,
+.link a:focus:after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+    left: 1500px;
+    position: relative;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:102px;
+    font-weight:bold;
+    background:#5F9EA0;
+  }
+  
+  #divBusca img{
+    float:left;
+  }
+  header{
+    background-color: #A7A6E1;
+    width: 100%;
+    left: -0px;
+    height: 90px;
+    position: absolute;
+    top: -20px;
+}
+.barra{
+    background-color: #4E437B;
+    width: 100%;
+    left: -0px;
+    height: 60px;
+    position: absolute;
+    top: 70px;
+}
+main{
+    background-color: #ededed;
+    width: 85%;
+    left: 160px;
+    height: 85%;
+    position: absolute;
+    top: 14%;
+}
+.logo{
+    position: absolute;
+    top: 15px;
+}
+h1{
+    position: absolute;
+left: 99px;
+top: 13px;
+}
+.background-container {
+    background-image: url('../img/fundo-login.jpeg');
+    background-repeat: repeat;
+    width: 101%; /* Ou ajuste a largura conforme necessário */
+    height: 1170px; /* Ou ajuste a altura conforme necessário */
+    margin-top: -233px;
+    margin-left: -11px;
+   
+}
+.fundo{
+    position: absolute;
+    background-color: #d9d9d9;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top:  120px;
+}
+.barrita{
+    position: absolute;
+    background-color: #d9d9d9;
+    width: 80%;
+    height: 40px;
+    top: 29px;
+    left: 10%;
+}
+.ab{
+    color: #adace0;
+    margin-top: -13px;
+    margin-left: -80px;
+}
+.e{
+    color: black ;
+    margin-top: -11px;
+    margin-left: 130px;
+}
+.his{
+    color: black ;
+    margin-top: 110px;
+    margin-left: 270px;
+}
+.que{
+    color: black ;
+    margin-top: 200px;
+    margin-left: 300px;
+    background-color: #cabb82;
+    width: 730px;
+    height: 80px;
+    
+}
+.ai{
+    color: black ;
+    margin-top: 210px;
+    margin-left: 210px;
+   width: 80%;
+   font-size: 150%;
+    
+}
+a{
+    color: black;
+}
