@@ -61,8 +61,8 @@
             <div class="topics2">
                 <a href="../php/fantasia.php">•  Fantasia</a>
                 <a href="../php/tragedia.php">•  Tragedia</a>
-                <a href="topic10.html">•  Familia</a>
-                <a href="topic11.html">•  Poesia</a>
+                <a href="../php/familia.php">•  Familia</a>
+                <a href="../php/poesia.php">•  Poesia</a>
                 <a href="topic12.html">•  Ação</a>
                 <a href="topic13.html">•  Amizade</a>
                 <a href="topic13.html">•  Magia</a> 
