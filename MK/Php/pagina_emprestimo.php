@@ -115,7 +115,7 @@ try {
 
     /* Adicione mais estilos conforme necessário */
 </style>";
-echo "<input type='submit' class='botao-emprestar' name='emprestarLivro' value='Emprestar Livro'>";
+echo "<input type='submit' class='botao-emprestar' name='emprestarLivro' value='EMPRESTAR'>";
                 echo "</form>";
             
                 // Exibição de mensagens de sucesso ou erro
