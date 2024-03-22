@@ -187,6 +187,6 @@ a:hover {
             }
         }
        </style>
-    <a href="listarlivros.php">Voltar </a>
+    <a href="navegar.php">Voltar </a>
 </body>
 </html>

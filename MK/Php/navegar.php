@@ -72,6 +72,7 @@ table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 130px;
+            background-image: url('../img/fundo-preto.png'); /* Substitua 'sua-imagem.jpg' pelo caminho correto da sua imagem */
             background-size: cover; /* Ajusta o dimensionamento da imagem */
             background-position: center; /* Centraliza a imagem */
             background-repeat: no-repeat;

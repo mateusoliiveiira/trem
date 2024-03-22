@@ -131,7 +131,7 @@ main h1{
     margin-left: 37%;
 }
 .background-container {
-    background-image: url('../img/fundo-login.jpeg');
+    background-image: url('../img/fundo-preto.png');
     background-repeat: repeat;
     width: 101%; /* Ou ajuste a largura conforme necessário */
     height: 1170px; /* Ou ajuste a altura conforme necessário */
