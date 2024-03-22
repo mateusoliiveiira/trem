@@ -127,6 +127,7 @@ top: 13px;
     color: #adace0;
     margin-top: -13px;
     margin-left: -80px;
+    text-decoration: none;
 }
 .e{
     color: black ;
@@ -158,3 +159,7 @@ top: 13px;
 a{
     color: black;
 }
+.ab a {
+    text-decoration: none;
+    color: #a7a6e1;
+  }
