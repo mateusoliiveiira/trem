@@ -46,10 +46,10 @@ body {
 
 /* Style the container holding your content */
 .container {
-    max-width: 800px;
-    margin: 20px auto;
+    max-width: 900px;
+    margin:90px auto;
     padding: 20px;
-    background-color: #fff;
+    
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -61,9 +61,11 @@ h2 {
 
 /* Style the table */
 table {
-    width: 100%;
+    width: 130%;
     border-collapse: collapse;
     margin-top: 20px;
+
+   
 }
 
 /* Style table header */
@@ -72,7 +74,7 @@ thead {
 }
 
 th, td {
-    padding: 10px;
+    padding: 1px;
     text-align: left;
 }
 
