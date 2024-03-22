@@ -71,7 +71,7 @@ $livros = $stmt->fetchAll();
 table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 130px;
+            margin-top: 95px;
             background-image: url('../img/fundo-preto.png'); /* Substitua 'sua-imagem.jpg' pelo caminho correto da sua imagem */
             background-size: cover; /* Ajusta o dimensionamento da imagem */
             background-position: center; /* Centraliza a imagem */
@@ -154,11 +154,7 @@ table {
       66% { color: rgb(0, 0, 255); }
       100% { color: rgb(255, 0, 0); }
     }
-    .logo{
-        position:absolute;
-        left:120px;
-        top: 80px;
-    }
+  
     .dev{
         position:absolute;
         top:90px;
@@ -172,10 +168,10 @@ table {
 
 
 
-<h2>Lista de  Livros</h2>
+
     
     <div class="container2">
-    <a class="dev" href="index.php">Voltar </a>
+
   
   
           <?php if (!empty($livros)) : ?>
@@ -237,3 +233,6 @@ function confirmLogout() {
             window.location.href = 'pagina_emprestimo.php?id=' + livroId;
         }
     </script>
+
+
+  

@@ -36,7 +36,7 @@ if (!isset($_SESSION["usuario"])) {
 <nav class="link">
         <a href="../php/tags.php">TAGS</a>
         <a href="navegar.php">NAVEGAR</a>
-        <a href="../php/tags.php">MINHAS HISTORIAS</a>
+        <a href="../php/historias.php">MINHAS HISTORIAS</a>
         <a href="../php/sobre.php">SOBRE</a>
         <div id="divBusca">
 
