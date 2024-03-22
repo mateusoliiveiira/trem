@@ -139,3 +139,22 @@ function confirmLogout() {
 }
 </script>
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("btnBusca").addEventListener("click", function() {
+        var searchTerm = document.getElementById("txtBusca").value.trim();
+        if (searchTerm !== "") {
+            // Enviar solicitação AJAX
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "buscar_livros.php?search=" + searchTerm, true);
+            xhr.onload = function() {
+                if (xhr.status == 200) {
+                    // Atualizar a página com os resultados da pesquisa
+                    document.body.innerHTML = xhr.responseText;
+                }
+            };
+            xhr.send();
+        }
+    });
+});
+</script>

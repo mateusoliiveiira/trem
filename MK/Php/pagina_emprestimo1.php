@@ -159,7 +159,7 @@ echo "<input type='submit' class='botao-emprestar' name='emprestarLivro' value='
     <title>Document</title>
 </head>
 
-<body style="background: url('img/Tela-fundo-login.png') no-repeat center center fixed; background-size: cover;">
+<body>
 <style>
 .logo{
     position:absolute;
@@ -168,7 +168,7 @@ echo "<input type='submit' class='botao-emprestar' name='emprestarLivro' value='
 }
 
 </style>
-<img class="logo" src="img/Logo_Horizontal_white.png" width="170px">   
+   
     <style>
 a{
     position:absolute;
