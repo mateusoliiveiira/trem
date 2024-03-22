@@ -1,9 +1,32 @@
+<?php
+session_start();
+
+// Conexão com o banco de dados (substitua com suas próprias credenciais)
+$host = 'localhost';
+$dbname = 'trem';
+$username = 'root';
+$password = '';
+
+try {
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    die("Erro na conexão com o Banco de Dados: " . $e->getMessage());
+}
+
+$stmt = $pdo->query("SELECT * FROM minhashistorias");
+$stmt->execute();
+$livros = $stmt->fetchAll();
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/historia.css">
+    <link rel="stylesheet" href="../Css/historia.css">
     <title>Minhas Historias</title>
 </head>
 <body>
@@ -42,11 +65,49 @@
     <h1 class="ab"> Abc Fanfiction   </h1> 
     <h1 class="e"><b> >  Gerenciar Minhas Histórias</h1>
         <h1 class="his"><b>  Gerenciar Histórias | Histórias Excluídas        </h1>
-        <h1 class="ai"> Você ainda não postou nenhuma História.<a href="MinhasHistorias.php"> Quer postar uma História?     </a>          </h1>
+        <h1 class="ai"> Você ainda não postou nenhuma História?<a href="cadastrarmyhistoria.php"> Quer postar uma História?     </a>          </h1>
     <h2 class="que"> </h1>
 </div>
+<div style="position:absolute; left:20%; top:300px;">
+
+    <?php if (!empty($livros)) : ?>
+        <table class="livros-table">
+            <thead>
+                <!-- Seu cabeçalho da tabela aqui... -->
+            </thead>
+            <tbody>
+                <?php foreach ($livros as $index => $livro) : ?>
+                    <?php if ($index % 3 === 0) : ?>
+                        <!-- Inicia uma nova linha a cada três livros -->
+                        <tr class="livro-row">
+                    <?php endif; ?>
+                    <td class="livro" style="padding: 20px;"> <!-- Adiciona espaço entre os livros -->
+                        <b><p><?= $livro['titulo'] ?></p></b>
+                        <a href="#" onclick="emprestarLivro(<?= $livro['id'] ?>)">
+                        <img style="max-width: 160px;" src="<?= $livro['imagem'] ?>">
+                        </a>
+                    </td>
+                    <?php if (($index + 1) % 3 === 0 || ($index + 1) === count($livros)) : ?>
+                        <!-- Fecha a linha a cada três livros ou no último livro -->
+                        </tr>
+                    <?php endif; ?>
+                <?php endforeach; ?>
+            </tbody>
+        </table>
+    <?php else : ?>
+        <p>Nenhum livro encontrado.</p>
+    <?php endif; ?>
+</div>
+
 
 </main>
 
 </body>
 </html>
+<script>
+        function emprestarLivro(livroId) {
+            // Adapte a URL de redirecionamento conforme necessário
+            window.location.href = 'pagina_emprestimo1.php?id=' + livroId;
+        }
+    </script>
+  
