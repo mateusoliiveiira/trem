@@ -1,0 +1,153 @@
+.background-container {
+    background-image: url('../img/fundo-login.jpeg');
+    background-repeat: repeat;
+    width: 101%; /* Ou ajuste a largura conforme necessário */
+    height: 1170px; /* Ou ajuste a altura conforme necessário */
+    margin-top: -233px;
+    margin-left: -11px;
+   
+}
+
+.link a {
+    position: relative;
+    left: 90px;
+    margin-right: 50px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 15px;
+    text-decoration: none;
+    color: #000000;
+    top:23px;
+    overflow: hidden;
+}
+
+body{
+
+
+}
+header{
+    background-color: #A7A6E1;
+    width: 100%;
+    left: -0px;
+    height: 90px;
+    position: absolute;
+    top: -20px;
+}
+.barra{
+    background-color: #4E437B;
+    width: 100%;
+    left: -0px;
+    height: 60px;
+    position: absolute;
+    top: 70px;
+}
+main{
+    background-color: #A7A6E1;
+    width: 100%;
+    left: -0px;
+    height: 80%;
+    position: absolute;
+    top: 17%;
+}
+footer{
+    background-color: #4E437B;
+    width: 100%;
+    left: -0px;
+    height: 10%;
+    position: absolute;
+    top: 97%;
+}
+.logo{
+    position: absolute;
+    top: 15px;
+}
+h1{
+    position: absolute;
+left: 99px;
+top: 13px;
+}
+
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+    left: 1500px;
+    position: relative;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:102px;
+    font-weight:bold;
+    background:#5F9EA0;
+  }
+  
+  #divBusca img{
+    float:left;
+  }
+
+  
+  .quadrado {
+    width: 1500px;
+    height: 820px;
+    background-color:#ffffff;
+    display: flex;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.quadrado2 {
+    width: 800px;
+    height: 820px;
+    background-color: #D9D9D9;
+    display: flex;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.quadrado3 {
+    width: 700px;
+    height: 70px;
+    background-color:  #A8A6E1;
+    display: flex;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.texto {
+    width: 775vw;
+    text-align: justify;
+    font-family: ui-sans-serif;
+    font-size: 20px;
+    margin-left: -100px;
+    margin-top: 100px;
+    justify-content: flex-start;
+    
+   
+  }
