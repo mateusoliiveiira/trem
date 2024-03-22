@@ -15,6 +15,16 @@ try {
     die("Erro na conexão com o Banco de Dados: " . $e->getMessage());
 }
 ?>
+<!-- Adicione este código abaixo da div.container -->
+<?php
+if (isset($_SESSION['exclusao_mensagem'])) {
+    echo "<p class='";
+    echo ($_SESSION['exclusao_mensagem'] == "Livro excluído com sucesso.") ? "success-message" : "error-message";
+    echo "'>" . $_SESSION['exclusao_mensagem'] . "</p>";
+    unset($_SESSION['exclusao_mensagem']);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -122,12 +132,19 @@ echo "<input type='submit' class='botao-emprestar' name='emprestarLivro' value='
                 if (isset($_SESSION['emprestimo_mensagem'])) {
                     echo "<p class='success-message'>" . $_SESSION['emprestimo_mensagem'] . "</p>";
                     unset($_SESSION['emprestimo_mensagem']);
+                    
                 }
             } else {
                 echo "<p class='error-message'>Livro não encontrado.</p>";
             }
         }
         ?>
+        <!-- Adicione este código abaixo do botão de emprestar -->
+<form method="post" action="excluir_livro.php">
+    <input type="hidden" name="livroId" value="<?php echo $livro['id']; ?>">
+    <input type="submit" class="botao-excluir" name="excluirLivro" value="Excluir Livro">
+</form>
+
     </div>
     
 </body>
