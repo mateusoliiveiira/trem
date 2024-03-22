@@ -14,7 +14,7 @@ if($_SESSION ['permissao'] == 1){
     </head>
     <body>
     
-    <body style="background: url('../img/fundo-login.jpeg') no-repeat center center fixed; background-size: cover;">
+    <body>
         <!-----------------LOGO----------------->
     
     <img class="logo" src="img/Logo_Horizontal_white.png" width="300px">
