@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Verifica se um arquivo de imagem foi enviado
     if (isset($_FILES["cover_image"]) && $_FILES["cover_image"]["error"] == 0) {
-        $target_dir = "uploads/"; // Pasta onde as imagens serão armazenadas
+        $target_dir = "../uploads"; // Pasta onde as imagens serão armazenadas
         $target_file = $target_dir . basename($_FILES["cover_image"]["name"]);
         $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
 
