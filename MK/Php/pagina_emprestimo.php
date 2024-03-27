@@ -123,6 +123,24 @@ echo "<input type='submit' class='botao-emprestar' name='emprestarLivro' value='
                     echo "<p class='success-message'>" . $_SESSION['emprestimo_mensagem'] . "</p>";
                     unset($_SESSION['emprestimo_mensagem']);
                 }
+                echo "<h3>Capítulos</h3>";
+                echo "<a href='#' onclick='mostrarCapitulo(\"capitulo1\")'>Capítulo 1</a><br>";
+                echo "<a href='#' onclick='mostrarCapitulo(\"capitulo2\")'>Capítulo 2</a><br>";
+                echo "<div id='capitulo1' class='capitulo' style='display:none;'>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>";
+                echo "<div id='capitulo2' class='capitulo' style='display:none;'>2Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>";
+                
+                // Script JavaScript para mostrar os capítulos
+                echo "<script>
+                    function mostrarCapitulo(id) {
+                        var capitulo = document.getElementById(id);
+                        if (capitulo.style.display === 'none') {
+                            capitulo.style.display = 'block';
+                        } else {
+                            capitulo.style.display = 'none';
+                        }
+                    }
+                </script>";
+                
             } else {
                 echo "<p class='error-message'>Livro não encontrado.</p>";
             }
@@ -153,7 +171,10 @@ echo "<input type='submit' class='botao-emprestar' name='emprestarLivro' value='
 </style>
  
     <style>
-a{
+        a{
+            text-decoration:none;
+        }
+ .clas{
     position:absolute;
     top:40px;
     left:91%;
@@ -187,6 +208,6 @@ a:hover {
             }
         }
        </style>
-    <a href="navegar.php">Voltar </a>
+    <a class="clas"href="navegar.php">Voltar </a>
 </body>
 </html>
