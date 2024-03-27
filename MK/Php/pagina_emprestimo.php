@@ -123,6 +123,24 @@ echo "<input type='submit' class='botao-emprestar' name='emprestarLivro' value='
                     echo "<p class='success-message'>" . $_SESSION['emprestimo_mensagem'] . "</p>";
                     unset($_SESSION['emprestimo_mensagem']);
                 }
+                echo "<h3>Capítulos</h3>";
+                echo "<a href='#' onclick='mostrarCapitulo(\"capitulo1\")'>Capítulo 1</a><br>";
+                echo "<a href='#' onclick='mostrarCapitulo(\"capitulo2\")'>Capítulo 2</a><br>";
+                echo "<div id='capitulo1' class='capitulo' style='display:none;'>Conteúdo do Capítulo 1</div>";
+                echo "<div id='capitulo2' class='capitulo' style='display:none;'>Conteúdo do Capítulo 2</div>";
+                
+                // Script JavaScript para mostrar os capítulos
+                echo "<script>
+                    function mostrarCapitulo(id) {
+                        var capitulo = document.getElementById(id);
+                        if (capitulo.style.display === 'none') {
+                            capitulo.style.display = 'block';
+                        } else {
+                            capitulo.style.display = 'none';
+                        }
+                    }
+                </script>";
+                
             } else {
                 echo "<p class='error-message'>Livro não encontrado.</p>";
             }
@@ -153,7 +171,7 @@ echo "<input type='submit' class='botao-emprestar' name='emprestarLivro' value='
 </style>
  
     <style>
-a{
+ .clas{
     position:absolute;
     top:40px;
     left:91%;
@@ -187,6 +205,6 @@ a:hover {
             }
         }
        </style>
-    <a href="navegar.php">Voltar </a>
+    <a class="clas"href="navegar.php">Voltar </a>
 </body>
 </html>
