@@ -29,8 +29,8 @@
 <nav class="link">
 <a href="index.php">PAGINA INICIAL</a>
         <a href="../php/tags.php">TAGS</a>
-        <a href="../php/tags.php">NAVEGAR</a>
-        <a href="../php/tags.php">MINHAS HISTORIAS</a>
+        <a href="../php/navegar.php">NAVEGAR</a>
+        <a href="../php/historias.php">MINHAS HISTORIAS</a>
         
         <div id="divBusca">
 

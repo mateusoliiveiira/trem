@@ -92,7 +92,7 @@ top: 13px;
 
 #divBusca{
     background-color:#E0EEEE;
-    border:solid 2px #5F9EA0;
+    border:solid 2px #6E6CB6;
     border-radius:10px;
     width:300px;
     height:32px;
@@ -117,7 +117,7 @@ top: 13px;
     border-radius:0 7px 7px 0;
     width:102px;
     font-weight:bold;
-    background:#5F9EA0;
+    background:#6E6CB6;
   }
   
   #divBusca img{
