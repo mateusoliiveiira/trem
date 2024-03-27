@@ -5,6 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/romance.css">
+    <style>
+        /* Estilo do botão */
+        .summary-button {
+            background-color: #6E6CB6; /* Cor de fundo */
+            border: none; /* Remover borda */
+            color: white; /* Cor do texto */
+            padding: 8px 16px; /* Espaçamento interno */
+            text-align: center; /* Alinhar texto ao centro */
+            text-decoration: none; /* Remover sublinhado */
+            display: inline-block; /* Exibir como bloco */
+            font-size: 14px; /* Tamanho da fonte */
+            margin-top: 10px; /* Margem superior */
+            cursor: pointer; /* Cursor ao passar por cima */
+            border-radius: 4px; /* Borda arredondada */
+        }
+        .summary2-button {
+            background-color: #4CAF50; /* Cor de fundo */
+            border: none; /* Remover borda */
+            color: white; /* Cor do texto */
+            padding: 8px 16px; /* Espaçamento interno */
+            text-align: center; /* Alinhar texto ao centro */
+            text-decoration: none; /* Remover sublinhado */
+            display: inline-block; /* Exibir como bloco */
+            font-size: 14px; /* Tamanho da fonte */
+            margin-top: 10px; /* Margem superior */
+            cursor: pointer; /* Cursor ao passar por cima */
+            border-radius: 4px; /* Borda arredondada */
+        }
+
+        .summary3-button {
+            background-color: #4CAF50; /* Cor de fundo */
+            border: none; /* Remover borda */
+            color: white; /* Cor do texto */
+            padding: 8px 16px; /* Espaçamento interno */
+            text-align: center; /* Alinhar texto ao centro */
+            text-decoration: none; /* Remover sublinhado */
+            display: inline-block; /* Exibir como bloco */
+            font-size: 14px; /* Tamanho da fonte */
+            margin-top: 10px; /* Margem superior */
+            cursor: pointer; /* Cursor ao passar por cima */
+            border-radius: 4px; /* Borda arredondada */
+        }
+
+        /* Mudança de cor ao passar por cima */
+        .summary-button:hover {
+            background-color: #45a049;
+        }
+
+        /* Mudança de cor ao clicar */
+        .summary-button:active {
+            background-color: #3e8e41;
+        }
+    </style>
     <title>Document</title>
 </head>
 
@@ -35,7 +88,7 @@
                     <h3>Me disseram que poetas sangram poesia</h3>
                     <p>Autor: meldysama</p>
                     <p>atualizada em: 20/07/2014</p>
-                    <button onclick="showSummary('summary1')">Mostrar Resumo</button>
+                    <button class="summary-button" onclick="showSummary('summary1')">Mostrar Resumo</button>
                     <p id="summary1" style="display: none;"> há muito tempo me disseram que poetas sangram poesia, e eu resolvi pensar sobre isso.
 
                     </p>
@@ -47,7 +100,7 @@
                     <h3>Silêncio de Saturno</h3>
                     <p>Autor: souhamucek </p>
                     <p>atualizada em: 30/12/2014</p>
-                    <button onclick="showSummary('summary2')">Mostrar Resumo</button>
+                    <button class="summary-button" onclick="showSummary('summary2')">Mostrar Resumo</button>
                     <p id="summary2" style="display: none;">Os ruídos incomodam-me. Embarco com meu silêncio à Via Láctea e apaixono-me mais. Todavia, nada compara-se a Saturno.</p>
                 </div>
             </li>
@@ -57,7 +110,7 @@
                     <h3>Me ouça</h3>
                     <p>Autor: silenciei</p>
                     <p>atualizada em: 30/12/2014 </p>
-                    <button onclick="showSummary('summary3')">Mostrar Resumo</button>
+                    <button class="summary-button" onclick="showSummary('summary3')">Mostrar Resumo</button>
                     <p id="summary3" style="display: none;">mãe, o meu tormento diário é conviver em sociedade.
                         angst ! social phobia</p>
                 </div>
