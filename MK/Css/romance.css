@@ -125,3 +125,27 @@ body {
   .tag-info {
     flex-grow: 1;
   }
+
+  .button {
+    background-color: #4CAF50; /* Cor de fundo */
+    border: none; /* Remover borda */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhar texto ao centro */
+    text-decoration: none; /* Remover sublinhado */
+    display: inline-block; /* Exibir como bloco */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margem externa */
+    cursor: pointer; /* Cursor ao passar por cima */
+    border-radius: 4px; /* Borda arredondada */
+  }
+  
+  /* Mudança de cor ao passar por cima */
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Mudança de cor ao clicar */
+  .button:active {
+    background-color: #3e8e41;
+  }

@@ -143,7 +143,7 @@ top: 13px;
 .texto {
     width: 775vw;
     text-align: justify;
-    font-family: ui-sans-serif;
+    font-family: 'Inter';
     font-size: 20px;
     margin-left: -100px;
     margin-top: 110px;
@@ -154,7 +154,7 @@ top: 13px;
 
   .topicsstart h3 {
     font-size: 25px;
-    font-family: inter;
+    font-family: 'Inter';
     margin-left: 65px;
     margin-top: 170px;
     height: -90px;
@@ -192,7 +192,7 @@ top: 13px;
 
 .topics2 a {
     text-decoration: none;
-    font-family: inter;
+    font-family: 'Inter';
     font-weight: bold;
     font-size: 20px;
     color: #000000;
@@ -202,6 +202,7 @@ top: 13px;
     height: 20px;
     width: 250px;
 }
+
 hr{
     margin-left: -35px;
     width: 500px;

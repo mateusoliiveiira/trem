@@ -49,7 +49,6 @@ $livros = $stmt->fetchAll();
 <nav class="link">
 <a href="index.php">PAGINA INICIAL</a>
             <a href="../php/tags.php">TAGS</a>
-        <a href="navegar.php">NAVEGAR</a>
         <a href="../php/historias.php">MINHAS HISTORIAS</a>
         <a href="../php/sobre.php">SOBRE</a>
         <div id="divBusca">
