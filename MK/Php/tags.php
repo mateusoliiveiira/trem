@@ -41,7 +41,7 @@
     <div class="quadrado2">
 
     <div class="quadrado3">
-    <h2>TAGS POPULARES</h2>
+    <h2>TAGS POPULARES </h2>
 
     <section class="section">
             <div class="topicsstart">
