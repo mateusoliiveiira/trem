@@ -29,8 +29,8 @@
     <nav class="link">
     <a href="index.php">PAGINA INICIAL</a>
             <a href="../php/tags.php">TAGS</a>
-            <a href="../php/tags.php">NAVEGAR</a>
-            <a href="../php/tags.php">MINHAS HISTORIAS</a>
+            <a href="../php/navegar.php">NAVEGAR</a>
+            <a href="../php/historias.php">MINHAS HISTORIAS</a>
             
             <div id="divBusca">
 
@@ -51,21 +51,21 @@
         <br>
         <br>
             <div class="topics">
-                <a href="../php/romance.php">•  Romance</a>
-                <a href="../php/drama.php">•  Drama</a>
-                <a href="../php/naruto.php"">•  Naruto</a>
-                <a href="../php/comedia.php">•  Comedia</a>
-                <a href="../php/amor.php">•  Amor</a>
+                <a href="../php/romance.php">•  ROMANCE</a>
+                <a href="../php/drama.php">•  DRAMA</a>
+                <a href="../php/naruto.php"">•  NARUTO</a>
+                <a href="../php/comedia.php">•  COMEDIA</a>
+                <a href="../php/amor.php">•  AMOR</a>
             </div>
             
             <div class="topics2">
-                <a href="../php/fantasia.php">•  Fantasia</a>
-                <a href="../php/tragedia.php">•  Tragedia</a>
-                <a href="../php/familia.php">•  Familia</a>
-                <a href="../php/poesia.php">•  Poesia</a>
-                <a href="../php/acao.php">•  Ação</a>
-                <a href="../php/amizade.php">•  Amizade</a>
-                <a href="../php/magia.php">•  Magia</a> 
+                <a href="../php/fantasia.php">•  FANTASIA</a>
+                <a href="../php/tragedia.php">•  TRAGEDIA</a>
+                <a href="../php/familia.php">•  FAMILIA</a>
+                <a href="../php/poesia.php">•  POESIA</a>
+                <a href="../php/acao.php">•  AÇÃO</a>
+                <a href="../php/amizade.php">•  AMIZADE</a>
+                <a href="../php/magia.php">•  MAGIA</a> 
             </div>  
                 </section>
         
