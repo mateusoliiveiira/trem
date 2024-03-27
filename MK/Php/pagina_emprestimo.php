@@ -126,8 +126,8 @@ echo "<input type='submit' class='botao-emprestar' name='emprestarLivro' value='
                 echo "<h3>Capítulos</h3>";
                 echo "<a href='#' onclick='mostrarCapitulo(\"capitulo1\")'>Capítulo 1</a><br>";
                 echo "<a href='#' onclick='mostrarCapitulo(\"capitulo2\")'>Capítulo 2</a><br>";
-                echo "<div id='capitulo1' class='capitulo' style='display:none;'>Conteúdo do Capítulo 1</div>";
-                echo "<div id='capitulo2' class='capitulo' style='display:none;'>Conteúdo do Capítulo 2</div>";
+                echo "<div id='capitulo1' class='capitulo' style='display:none;'>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>";
+                echo "<div id='capitulo2' class='capitulo' style='display:none;'>2Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>";
                 
                 // Script JavaScript para mostrar os capítulos
                 echo "<script>
@@ -171,6 +171,9 @@ echo "<input type='submit' class='botao-emprestar' name='emprestarLivro' value='
 </style>
  
     <style>
+        a{
+            text-decoration:none;
+        }
  .clas{
     position:absolute;
     top:40px;
