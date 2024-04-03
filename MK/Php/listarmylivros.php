@@ -27,7 +27,64 @@ $livros = $stmt->fetchAll();
     <title>Document</title>
 </head>
 <body>
+<style>
+/* Estilo para a tabela de livros */
+.livros-table {
+    width: 100%;
+    border-collapse: collapse;
+}
 
+.livros-table th,
+.livros-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.livros-table th {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para cada célula de livro */
+.livro {
+    width: 33.33%; /* Divide a largura igualmente entre três colunas */
+}
+
+/* Estilo para o título do livro */
+.livro p {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilo para a imagem do livro */
+.livro img {
+    max-width: 160px;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+/* Estilo para o link de impressão */
+.pdf {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pdf:hover {
+    background-color: #45a049;
+}
+
+
+</style>
 <?php if (!empty($livros)) : ?>
         <table class="livros-table">
             <thead>

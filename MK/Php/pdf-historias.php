@@ -16,9 +16,9 @@ $tablesContent = '';
 foreach ($livros as $livro) {
     $tableContent = "
         <table>
-            <tr><td>Capa</td><td><img src='" . $livros['imagem'] . "' alt='Capa do Livro'></td></tr>
-            <tr><td>Título</td><td>" . $livros['titulo'] . "</td></tr>
-            <tr><td>Autor</td><td>" . $livros['autor'] . "</td></tr>
+            <tr><td>Capa</td><td><img src='" . $livro['imagem'] . "' alt='Capa do Livro'></td></tr>
+            <tr><td>Título</td><td>" . $livro['titulo'] . "</td></tr>
+            <tr><td>Autor</td><td>" . $livro['autor'] . "</td></tr>
             <tr><td>Gênero</td><td>" . $livro['genero'] . "</td></tr>
             <tr><td>Ano de Publicação</td><td>" . $livro['ano_publicacao'] . "</td></tr>
             <tr><td>Descrição</td><td>" . $livro['descricao'] . "</td></tr>
