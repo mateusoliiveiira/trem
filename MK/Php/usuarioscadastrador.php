@@ -121,7 +121,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["usuario"]) && isset($_
     header('Location: index.php');
 }
 ?>
-<a class="pdf" href="pdf.usuario.php">Imprimir</a>
+
 </body>
 
 </html>
