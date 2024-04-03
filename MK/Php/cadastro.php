@@ -71,7 +71,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </form>
 
         <h3>Já Tem Login? </h3>
-        <a href="Login.php">Logar   </a>
+       <h2> <a href="Login.php">Logar  </a> </h2>
+        
     </div>
 </div>
 </body>

@@ -106,9 +106,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["usuario"]) && isset($_
     <title>Usuários Registrados</title>
 </head>
 
-<body style="background: url('img/Tela-fundo-login.png') no-repeat center center fixed; background-size: cover;">
-
-    <img class="logo" src="img/Logo_Horizontal_white.png" width="300px">
     <h1>Usuários Registrados</h1>
 
     <?php
@@ -117,6 +114,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["usuario"]) && isset($_
     ?>
 
     <h3><a href="admin.php">Voltar para a página de administrador</a></h3>
+    <a class="pdf" href="usuariospdf.php">Imprimir</a>
 
     <?php
 } else {
@@ -126,3 +124,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["usuario"]) && isset($_
 </body>
 
 </html>
+
