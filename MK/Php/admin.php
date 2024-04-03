@@ -44,6 +44,9 @@ if($_SESSION ['permissao'] == 1){
                 <tr>
                     <td><a href="usuarioscadastrador.php">Cadastro de Pessoas</a></td>
                 </tr>
+                <tr>
+                    <td><a href="listarmylivros.php">Cadastro de historia</a></td>
+                </tr>
 
                 <!-- Adicione isso onde deseja exibir os livros reservados -->
                 <td><a href="listarlivrosadm.php">Ver Livros</a></td>
