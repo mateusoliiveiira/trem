@@ -88,7 +88,7 @@
                     <h3>Me disseram que poetas sangram poesia</h3>
                     <p>Autor: meldysama</p>
                     <p>atualizada em: 20/07/2014</p>
-                    <button class="summary-button" onclick="showSummary('summary1')">Mostrar Resumo</button>
+                    <button class="summary-button" onclick="showSummary('summary1')">VER</button>
                     <p id="summary1" style="display: none;"> há muito tempo me disseram que poetas sangram poesia, e eu resolvi pensar sobre isso.
 
                     </p>
@@ -100,7 +100,7 @@
                     <h3>Silêncio de Saturno</h3>
                     <p>Autor: souhamucek </p>
                     <p>atualizada em: 30/12/2014</p>
-                    <button class="summary-button" onclick="showSummary('summary2')">Mostrar Resumo</button>
+                    <button class="summary-button" onclick="showSummary('summary2')">VER</button>
                     <p id="summary2" style="display: none;">Os ruídos incomodam-me. Embarco com meu silêncio à Via Láctea e apaixono-me mais. Todavia, nada compara-se a Saturno.</p>
                 </div>
             </li>
@@ -110,7 +110,7 @@
                     <h3>Me ouça</h3>
                     <p>Autor: silenciei</p>
                     <p>atualizada em: 30/12/2014 </p>
-                    <button class="summary-button" onclick="showSummary('summary3')">Mostrar Resumo</button>
+                    <button class="summary-button" onclick="showSummary('summary3')">VER</button>
                     <p id="summary3" style="display: none;">mãe, o meu tormento diário é conviver em sociedade.
                         angst ! social phobia</p>
                 </div>
