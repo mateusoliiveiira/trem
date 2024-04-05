@@ -75,7 +75,7 @@ try {
 </head>
 
 <body>
-    <div class="container">
+<div class="container">
         <?php
         if (isset($_GET['id'])) {
             $livroId = $_GET['id'];
@@ -102,53 +102,40 @@ try {
                 echo "<input type='hidden' name='livroId' value='" . $livro['id'] . "'>";
             
                 // Botão para emprestar o livro
-                echo "<style>
-    /* Adicione estilos CSS aqui */
-    .botao-emprestar {
-        background-color: #4CAF50; /* Cor de fundo verde */
-        color: white; /* Cor do texto branco */
-        padding: 10px 15px; /* Espaçamento interno */
-        border: none; /* Sem borda */
-        border-radius: 4px; /* Borda arredondada */
-        cursor: pointer; /* Cursor de apontar */
-    }
-
-    /* Adicione mais estilos conforme necessário */
-</style>";
-echo "<input type='submit' class='botao-emprestar' name='emprestarLivro' value='EMPRESTAR'>";
+                echo "<input type='submit' class='botao-emprestar' name='emprestarLivro' value='EMPRESTAR'>";
                 echo "</form>";
-            
+
                 // Exibição de mensagens de sucesso ou erro
                 if (isset($_SESSION['emprestimo_mensagem'])) {
                     echo "<p class='success-message'>" . $_SESSION['emprestimo_mensagem'] . "</p>";
                     unset($_SESSION['emprestimo_mensagem']);
                 }
-                echo "<h3>Capítulos</h3>";
-                echo "<a href='capitulo1.php' onclick='mostrarCapitulo(\"capitulo1\")'>Capítulo 1</a><br>";
-                echo "<a href='capitulo2.php' onclick='mostrarCapitulo(\"capitulo2\")'>Capítulo 2</a><br>";
-               
-                // Script JavaScript para mostrar os capítulos
-                echo "<script>
-                    function mostrarCapitulo(id) {
-                        var capitulo = document.getElementById(id);
-                        if (capitulo.style.display === 'none') {
-                            capitulo.style.display = 'block';
-                        } else {
-                            capitulo.style.display = 'none';
-                        }
+
+                // Consulta para obter os capítulos do livro
+                $stmt = $pdo->prepare("SELECT * FROM capitulos WHERE livro_id = :livroId");
+                $stmt->bindParam(':livroId', $livroId);
+                $stmt->execute();
+                $capitulos = $stmt->fetchAll();
+
+                if ($capitulos) {
+                    echo "<h2>Capítulos</h2>";
+                    foreach ($capitulos as $capitulo) {
+                        // Crie um link para cada capítulo
+                        echo "<a class='link-capitulo' href='capitulo.php?id=" . $capitulo['livro_id'] . "'>" . $capitulo['titulo'] . "</a>";
                     }
-                </script>";
-                
+                } else {
+                    echo "<p>Não há capítulos disponíveis para este livro.</p>";
+                }
             } else {
                 echo "<p class='error-message'>Livro não encontrado.</p>";
             }
         }
         ?>
     </div>
-    
 </body>
-
 </html>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
