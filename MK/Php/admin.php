@@ -17,7 +17,7 @@ if($_SESSION ['permissao'] == 1){
     <body>
         <!-----------------LOGO----------------->
     
-    <img class="logo" src="img/Logo_Horizontal_white.png" width="300px">
+  
     <?php
     
     if (!isset($_SESSION["usuario"])) {

@@ -45,3 +45,41 @@ if (isset($_GET['search'])) {
     }
 }
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/buscar.css">
+    <title>Document</title>
+</head>
+<body>
+  
+
+<header>
+    <!-----------------LOGO----------------->
+
+<img class="logo" src="../img/logoo.jpeg" width="80px">
+
+<h1>Abc Fanfiction</h1>
+</header>
+
+<!---------------------------------MENU---------------------------------->
+<div class="barra">
+<nav class="link">
+<a href="../php/index.php">PAGINA INICIAL</a>
+        <a href="../php/tags.php">TAGS</a>
+        <a href="navegar.php">NAVEGAR</a>
+        <a href="../php/historias.php">MINHAS HISTORIAS</a>
+        <a href="../php/sobre.php">SOBRE</a>
+      
+
+</nav>
+</div>
+
+
+
+        
+    
+</body>
+</html>

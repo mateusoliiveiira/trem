@@ -1,8 +1,7 @@
 .menu {
     text-align: center;
-    margin-top: 20px;
-    position: absolute;
-    margin-left: 50px;
+    margin-top: 150px;
+    
 }
 
 .toggle-link {
@@ -51,7 +50,7 @@ a {
 }
 .welcome-message{
     position: absolute;
-    left: 480px;
+    left: 680px;
     color: white;
 top: 0px;
 }
