@@ -34,7 +34,7 @@ if ($_SESSION['permissao'] == 1) {
                 move_uploaded_file($_FILES["cover_image"]["tmp_name"], $target_file);
 
                 // Insere os dados (incluindo o caminho da imagem) na tabela 'livros'
-                $stmt = $pdo->prepare("INSERT INTO livros (titulo, autor, genero, ano_publicacao, descricao, imagem) VALUES (?, ?, ?, ?, ?, ?)");
+                $stmt = $pdo->prepare("INSERT INTO cadastrarlivros (titulo, autor, genero, ano_publicacao, descricao, imagem) VALUES (?, ?, ?, ?, ?, ?)");
                 $stmt->execute([$title, $author, $genre, $published_year, $description, $target_file]);
 
                 // Obtém o ID do livro recém-inserido
@@ -51,7 +51,7 @@ if ($_SESSION['permissao'] == 1) {
                 }
 
                 // Redireciona para listarlivros.php após cadastrar o livro
-                header("Location: listarlivros.php");
+                header("Location: navegar.php");
                 exit();
             } else {
                 echo "Formato de arquivo inválido. Por favor, envie uma imagem nos formatos JPG, JPEG, PNG ou GIF.";
